@@ -1,7 +1,7 @@
 'use server';
 
-import {authOptions} from "@/app/api/auth/[...nextauth]/route";
 import AdForm from "@/components/AdForm";
+import {authOptions} from "@/libs/authOptions";
 import {connect} from "@/libs/helpers";
 import {AdModel} from "@/models/Ad";
 import {getServerSession} from "next-auth";

@@ -1,4 +1,4 @@
-import {authOptions} from "@/app/api/auth/[...nextauth]/route";
+import {authOptions} from "@/libs/authOptions";
 import {connect} from "@/libs/helpers";
 import {Ad, AdModel} from "@/models/Ad";
 import {FilterQuery, PipelineStage} from "mongoose";

@@ -1,5 +1,5 @@
-import {authOptions} from "@/app/api/auth/[...nextauth]/route";
 import Header from "@/components/Header";
+import {authOptions} from "@/libs/authOptions";
 import type { Metadata } from "next";
 import {getServerSession} from "next-auth";
 import { Inter } from "next/font/google";

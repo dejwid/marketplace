@@ -1,9 +1,9 @@
 'use server';
 
-import {authOptions} from "@/app/api/auth/[...nextauth]/route";
 import DeleteAdButton from "@/components/DeleteAdButton";
 import Gallery from "@/components/Gallery";
 import LocationMap from "@/components/LocationMap";
+import {authOptions} from "@/libs/authOptions";
 import {connect, formatDate, formatMoney} from "@/libs/helpers";
 import {AdModel} from "@/models/Ad";
 import {faPencil} from "@fortawesome/free-solid-svg-icons";
