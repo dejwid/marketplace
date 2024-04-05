@@ -23,6 +23,9 @@ dependencies:
   '@types/google.maps':
     specifier: ^3.55.5
     version: 3.55.5
+  aws4:
+    specifier: ^1.12.0
+    version: 1.12.0
   imagekit:
     specifier: ^5.0.0
     version: 5.0.0
@@ -697,6 +700,10 @@ packages:
     dependencies:
       possible-typed-array-names: 1.0.0
     dev: true
+
+  /aws4@1.12.0:
+    resolution: {integrity: sha512-NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==}
+    dev: false
 
   /axe-core@4.7.0:
     resolution: {integrity: sha512-M0JtH+hlOL5pLQwHOLNYZaXuhqmvS8oExsqB1SBYgA4Dk7u/xx+YdGHXaK5pyUfed5mYXdlYiphWq3G8cRi5JQ==}
