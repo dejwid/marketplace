@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"], input[type="number"], select, textarea{
+    @apply w-full border p-2 rounded;
+}
+label{
+    @apply text-xs text-gray-600 font-bold uppercase block mt-4 mb-1;
+}
+label.upload-btn input[type="file"]{
+    @apply hidden;
+}
+
+label.radio-btn{
+    @apply has-[:checked]:bg-blue-100 rounded-md py-1 px-1 flex items-center gap-2 my-0;
+}
+label.radio-btn span.icon{
+    @apply size-8 rounded-full flex items-center justify-center text-gray-500;
+}
+label.radio-btn svg{
+    @apply h-4;
+}
+label.radio-btn{
+    @apply normal-case;
+}
